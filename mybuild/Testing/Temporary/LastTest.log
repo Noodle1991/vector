@@ -1,0 +1,678 @@
+Start testing: Dec 20 13:44 MSK
+----------------------------------------------------------
+1/25 Testing: GoogleTestCi.Foo
+1/25 Test: GoogleTestCi.Foo
+Command: "/Users/stanislav/Documents/Учеба/ершов/vektor/mybuild/example_tests" "--gtest_filter=GoogleTestCi.Foo" "--gtest_also_run_disabled_tests"
+Directory: /Users/stanislav/Documents/Учеба/ершов/vektor/mybuild
+"GoogleTestCi.Foo" start time: Dec 20 13:44 MSK
+Output:
+----------------------------------------------------------
+Running main() from /Users/stanislav/Documents/Учеба/ершов/vektor/mybuild/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = GoogleTestCi.Foo
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from GoogleTestCi
+[ RUN      ] GoogleTestCi.Foo
+[       OK ] GoogleTestCi.Foo (0 ms)
+[----------] 1 test from GoogleTestCi (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"GoogleTestCi.Foo" end time: Dec 20 13:44 MSK
+"GoogleTestCi.Foo" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/25 Testing: ExampleTest.DmitriiLeonidovich
+2/25 Test: ExampleTest.DmitriiLeonidovich
+Command: "/Users/stanislav/Documents/Учеба/ершов/vektor/mybuild/example_tests" "--gtest_filter=ExampleTest.DmitriiLeonidovich" "--gtest_also_run_disabled_tests"
+Directory: /Users/stanislav/Documents/Учеба/ершов/vektor/mybuild
+"ExampleTest.DmitriiLeonidovich" start time: Dec 20 13:44 MSK
+Output:
+----------------------------------------------------------
+Running main() from /Users/stanislav/Documents/Учеба/ершов/vektor/mybuild/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ExampleTest.DmitriiLeonidovich
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ExampleTest
+[ RUN      ] ExampleTest.DmitriiLeonidovich
+[       OK ] ExampleTest.DmitriiLeonidovich (0 ms)
+[----------] 1 test from ExampleTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"ExampleTest.DmitriiLeonidovich" end time: Dec 20 13:44 MSK
+"ExampleTest.DmitriiLeonidovich" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/25 Testing: Vector.exact_symbol
+3/25 Test: Vector.exact_symbol
+Command: "/Users/stanislav/Documents/Учеба/ершов/vektor/mybuild/example_tests" "--gtest_filter=Vector.exact_symbol" "--gtest_also_run_disabled_tests"
+Directory: /Users/stanislav/Documents/Учеба/ершов/vektor/mybuild
+"Vector.exact_symbol" start time: Dec 20 13:44 MSK
+Output:
+----------------------------------------------------------
+Running main() from /Users/stanislav/Documents/Учеба/ершов/vektor/mybuild/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = Vector.exact_symbol
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Vector
+[ RUN      ] Vector.exact_symbol
+[       OK ] Vector.exact_symbol (0 ms)
+[----------] 1 test from Vector (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"Vector.exact_symbol" end time: Dec 20 13:44 MSK
+"Vector.exact_symbol" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/25 Testing: Vector.resize_char
+4/25 Test: Vector.resize_char
+Command: "/Users/stanislav/Documents/Учеба/ершов/vektor/mybuild/example_tests" "--gtest_filter=Vector.resize_char" "--gtest_also_run_disabled_tests"
+Directory: /Users/stanislav/Documents/Учеба/ершов/vektor/mybuild
+"Vector.resize_char" start time: Dec 20 13:44 MSK
+Output:
+----------------------------------------------------------
+Running main() from /Users/stanislav/Documents/Учеба/ершов/vektor/mybuild/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = Vector.resize_char
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Vector
+[ RUN      ] Vector.resize_char
+[       OK ] Vector.resize_char (0 ms)
+[----------] 1 test from Vector (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"Vector.resize_char" end time: Dec 20 13:44 MSK
+"Vector.resize_char" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/25 Testing: Vector.resize_int
+5/25 Test: Vector.resize_int
+Command: "/Users/stanislav/Documents/Учеба/ершов/vektor/mybuild/example_tests" "--gtest_filter=Vector.resize_int" "--gtest_also_run_disabled_tests"
+Directory: /Users/stanislav/Documents/Учеба/ершов/vektor/mybuild
+"Vector.resize_int" start time: Dec 20 13:44 MSK
+Output:
+----------------------------------------------------------
+Running main() from /Users/stanislav/Documents/Учеба/ершов/vektor/mybuild/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = Vector.resize_int
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Vector
+[ RUN      ] Vector.resize_int
+[       OK ] Vector.resize_int (0 ms)
+[----------] 1 test from Vector (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"Vector.resize_int" end time: Dec 20 13:44 MSK
+"Vector.resize_int" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/25 Testing: Vector.swap
+6/25 Test: Vector.swap
+Command: "/Users/stanislav/Documents/Учеба/ершов/vektor/mybuild/example_tests" "--gtest_filter=Vector.swap" "--gtest_also_run_disabled_tests"
+Directory: /Users/stanislav/Documents/Учеба/ершов/vektor/mybuild
+"Vector.swap" start time: Dec 20 13:44 MSK
+Output:
+----------------------------------------------------------
+Running main() from /Users/stanislav/Documents/Учеба/ершов/vektor/mybuild/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = Vector.swap
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Vector
+[ RUN      ] Vector.swap
+[       OK ] Vector.swap (0 ms)
+[----------] 1 test from Vector (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"Vector.swap" end time: Dec 20 13:44 MSK
+"Vector.swap" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/25 Testing: Vector.reserve
+7/25 Test: Vector.reserve
+Command: "/Users/stanislav/Documents/Учеба/ершов/vektor/mybuild/example_tests" "--gtest_filter=Vector.reserve" "--gtest_also_run_disabled_tests"
+Directory: /Users/stanislav/Documents/Учеба/ершов/vektor/mybuild
+"Vector.reserve" start time: Dec 20 13:44 MSK
+Output:
+----------------------------------------------------------
+Running main() from /Users/stanislav/Documents/Учеба/ершов/vektor/mybuild/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = Vector.reserve
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Vector
+[ RUN      ] Vector.reserve
+[       OK ] Vector.reserve (0 ms)
+[----------] 1 test from Vector (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"Vector.reserve" end time: Dec 20 13:44 MSK
+"Vector.reserve" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/25 Testing: Vector.reserve_more
+8/25 Test: Vector.reserve_more
+Command: "/Users/stanislav/Documents/Учеба/ершов/vektor/mybuild/example_tests" "--gtest_filter=Vector.reserve_more" "--gtest_also_run_disabled_tests"
+Directory: /Users/stanislav/Documents/Учеба/ершов/vektor/mybuild
+"Vector.reserve_more" start time: Dec 20 13:44 MSK
+Output:
+----------------------------------------------------------
+Running main() from /Users/stanislav/Documents/Учеба/ершов/vektor/mybuild/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = Vector.reserve_more
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Vector
+[ RUN      ] Vector.reserve_more
+[       OK ] Vector.reserve_more (0 ms)
+[----------] 1 test from Vector (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"Vector.reserve_more" end time: Dec 20 13:44 MSK
+"Vector.reserve_more" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/25 Testing: Vector.iterator
+9/25 Test: Vector.iterator
+Command: "/Users/stanislav/Documents/Учеба/ершов/vektor/mybuild/example_tests" "--gtest_filter=Vector.iterator" "--gtest_also_run_disabled_tests"
+Directory: /Users/stanislav/Documents/Учеба/ершов/vektor/mybuild
+"Vector.iterator" start time: Dec 20 13:44 MSK
+Output:
+----------------------------------------------------------
+Running main() from /Users/stanislav/Documents/Учеба/ершов/vektor/mybuild/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = Vector.iterator
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Vector
+[ RUN      ] Vector.iterator
+[       OK ] Vector.iterator (0 ms)
+[----------] 1 test from Vector (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"Vector.iterator" end time: Dec 20 13:44 MSK
+"Vector.iterator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/25 Testing: Vector.symbol_input
+10/25 Test: Vector.symbol_input
+Command: "/Users/stanislav/Documents/Учеба/ершов/vektor/mybuild/example_tests" "--gtest_filter=Vector.symbol_input" "--gtest_also_run_disabled_tests"
+Directory: /Users/stanislav/Documents/Учеба/ершов/vektor/mybuild
+"Vector.symbol_input" start time: Dec 20 13:44 MSK
+Output:
+----------------------------------------------------------
+Running main() from /Users/stanislav/Documents/Учеба/ершов/vektor/mybuild/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = Vector.symbol_input
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Vector
+[ RUN      ] Vector.symbol_input
+[       OK ] Vector.symbol_input (0 ms)
+[----------] 1 test from Vector (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"Vector.symbol_input" end time: Dec 20 13:44 MSK
+"Vector.symbol_input" time elapsed: 00:00:00
+----------------------------------------------------------
+
+11/25 Testing: Vector.symbol_back
+11/25 Test: Vector.symbol_back
+Command: "/Users/stanislav/Documents/Учеба/ершов/vektor/mybuild/example_tests" "--gtest_filter=Vector.symbol_back" "--gtest_also_run_disabled_tests"
+Directory: /Users/stanislav/Documents/Учеба/ершов/vektor/mybuild
+"Vector.symbol_back" start time: Dec 20 13:44 MSK
+Output:
+----------------------------------------------------------
+Running main() from /Users/stanislav/Documents/Учеба/ершов/vektor/mybuild/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = Vector.symbol_back
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Vector
+[ RUN      ] Vector.symbol_back
+[       OK ] Vector.symbol_back (0 ms)
+[----------] 1 test from Vector (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"Vector.symbol_back" end time: Dec 20 13:44 MSK
+"Vector.symbol_back" time elapsed: 00:00:00
+----------------------------------------------------------
+
+12/25 Testing: Vector.operator_equal_char
+12/25 Test: Vector.operator_equal_char
+Command: "/Users/stanislav/Documents/Учеба/ершов/vektor/mybuild/example_tests" "--gtest_filter=Vector.operator_equal_char" "--gtest_also_run_disabled_tests"
+Directory: /Users/stanislav/Documents/Учеба/ершов/vektor/mybuild
+"Vector.operator_equal_char" start time: Dec 20 13:44 MSK
+Output:
+----------------------------------------------------------
+Running main() from /Users/stanislav/Documents/Учеба/ершов/vektor/mybuild/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = Vector.operator_equal_char
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Vector
+[ RUN      ] Vector.operator_equal_char
+[       OK ] Vector.operator_equal_char (0 ms)
+[----------] 1 test from Vector (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"Vector.operator_equal_char" end time: Dec 20 13:44 MSK
+"Vector.operator_equal_char" time elapsed: 00:00:00
+----------------------------------------------------------
+
+13/25 Testing: Vector.operator_equal_int
+13/25 Test: Vector.operator_equal_int
+Command: "/Users/stanislav/Documents/Учеба/ершов/vektor/mybuild/example_tests" "--gtest_filter=Vector.operator_equal_int" "--gtest_also_run_disabled_tests"
+Directory: /Users/stanislav/Documents/Учеба/ершов/vektor/mybuild
+"Vector.operator_equal_int" start time: Dec 20 13:44 MSK
+Output:
+----------------------------------------------------------
+Running main() from /Users/stanislav/Documents/Учеба/ершов/vektor/mybuild/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = Vector.operator_equal_int
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Vector
+[ RUN      ] Vector.operator_equal_int
+[       OK ] Vector.operator_equal_int (0 ms)
+[----------] 1 test from Vector (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"Vector.operator_equal_int" end time: Dec 20 13:44 MSK
+"Vector.operator_equal_int" time elapsed: 00:00:00
+----------------------------------------------------------
+
+14/25 Testing: Vector.operator_not_equal
+14/25 Test: Vector.operator_not_equal
+Command: "/Users/stanislav/Documents/Учеба/ершов/vektor/mybuild/example_tests" "--gtest_filter=Vector.operator_not_equal" "--gtest_also_run_disabled_tests"
+Directory: /Users/stanislav/Documents/Учеба/ершов/vektor/mybuild
+"Vector.operator_not_equal" start time: Dec 20 13:44 MSK
+Output:
+----------------------------------------------------------
+Running main() from /Users/stanislav/Documents/Учеба/ершов/vektor/mybuild/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = Vector.operator_not_equal
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Vector
+[ RUN      ] Vector.operator_not_equal
+[       OK ] Vector.operator_not_equal (0 ms)
+[----------] 1 test from Vector (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"Vector.operator_not_equal" end time: Dec 20 13:44 MSK
+"Vector.operator_not_equal" time elapsed: 00:00:00
+----------------------------------------------------------
+
+15/25 Testing: Vector.operator_more_not_equal
+15/25 Test: Vector.operator_more_not_equal
+Command: "/Users/stanislav/Documents/Учеба/ершов/vektor/mybuild/example_tests" "--gtest_filter=Vector.operator_more_not_equal" "--gtest_also_run_disabled_tests"
+Directory: /Users/stanislav/Documents/Учеба/ершов/vektor/mybuild
+"Vector.operator_more_not_equal" start time: Dec 20 13:44 MSK
+Output:
+----------------------------------------------------------
+Running main() from /Users/stanislav/Documents/Учеба/ершов/vektor/mybuild/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = Vector.operator_more_not_equal
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Vector
+[ RUN      ] Vector.operator_more_not_equal
+[       OK ] Vector.operator_more_not_equal (0 ms)
+[----------] 1 test from Vector (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"Vector.operator_more_not_equal" end time: Dec 20 13:44 MSK
+"Vector.operator_more_not_equal" time elapsed: 00:00:00
+----------------------------------------------------------
+
+16/25 Testing: Vector.operator_not_equal_int
+16/25 Test: Vector.operator_not_equal_int
+Command: "/Users/stanislav/Documents/Учеба/ершов/vektor/mybuild/example_tests" "--gtest_filter=Vector.operator_not_equal_int" "--gtest_also_run_disabled_tests"
+Directory: /Users/stanislav/Documents/Учеба/ершов/vektor/mybuild
+"Vector.operator_not_equal_int" start time: Dec 20 13:44 MSK
+Output:
+----------------------------------------------------------
+Running main() from /Users/stanislav/Documents/Учеба/ершов/vektor/mybuild/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = Vector.operator_not_equal_int
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Vector
+[ RUN      ] Vector.operator_not_equal_int
+[       OK ] Vector.operator_not_equal_int (0 ms)
+[----------] 1 test from Vector (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"Vector.operator_not_equal_int" end time: Dec 20 13:44 MSK
+"Vector.operator_not_equal_int" time elapsed: 00:00:00
+----------------------------------------------------------
+
+17/25 Testing: Vector.operator_less
+17/25 Test: Vector.operator_less
+Command: "/Users/stanislav/Documents/Учеба/ершов/vektor/mybuild/example_tests" "--gtest_filter=Vector.operator_less" "--gtest_also_run_disabled_tests"
+Directory: /Users/stanislav/Documents/Учеба/ершов/vektor/mybuild
+"Vector.operator_less" start time: Dec 20 13:44 MSK
+Output:
+----------------------------------------------------------
+Running main() from /Users/stanislav/Documents/Учеба/ершов/vektor/mybuild/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = Vector.operator_less
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Vector
+[ RUN      ] Vector.operator_less
+[       OK ] Vector.operator_less (0 ms)
+[----------] 1 test from Vector (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"Vector.operator_less" end time: Dec 20 13:44 MSK
+"Vector.operator_less" time elapsed: 00:00:00
+----------------------------------------------------------
+
+18/25 Testing: Vector.operator_more
+18/25 Test: Vector.operator_more
+Command: "/Users/stanislav/Documents/Учеба/ершов/vektor/mybuild/example_tests" "--gtest_filter=Vector.operator_more" "--gtest_also_run_disabled_tests"
+Directory: /Users/stanislav/Documents/Учеба/ершов/vektor/mybuild
+"Vector.operator_more" start time: Dec 20 13:44 MSK
+Output:
+----------------------------------------------------------
+Running main() from /Users/stanislav/Documents/Учеба/ершов/vektor/mybuild/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = Vector.operator_more
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Vector
+[ RUN      ] Vector.operator_more
+[       OK ] Vector.operator_more (0 ms)
+[----------] 1 test from Vector (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"Vector.operator_more" end time: Dec 20 13:44 MSK
+"Vector.operator_more" time elapsed: 00:00:00
+----------------------------------------------------------
+
+19/25 Testing: Vector.operator_bigger
+19/25 Test: Vector.operator_bigger
+Command: "/Users/stanislav/Documents/Учеба/ершов/vektor/mybuild/example_tests" "--gtest_filter=Vector.operator_bigger" "--gtest_also_run_disabled_tests"
+Directory: /Users/stanislav/Documents/Учеба/ершов/vektor/mybuild
+"Vector.operator_bigger" start time: Dec 20 13:44 MSK
+Output:
+----------------------------------------------------------
+Running main() from /Users/stanislav/Documents/Учеба/ершов/vektor/mybuild/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = Vector.operator_bigger
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Vector
+[ RUN      ] Vector.operator_bigger
+[       OK ] Vector.operator_bigger (0 ms)
+[----------] 1 test from Vector (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"Vector.operator_bigger" end time: Dec 20 13:44 MSK
+"Vector.operator_bigger" time elapsed: 00:00:00
+----------------------------------------------------------
+
+20/25 Testing: Vector.operator_less_size
+20/25 Test: Vector.operator_less_size
+Command: "/Users/stanislav/Documents/Учеба/ершов/vektor/mybuild/example_tests" "--gtest_filter=Vector.operator_less_size" "--gtest_also_run_disabled_tests"
+Directory: /Users/stanislav/Documents/Учеба/ершов/vektor/mybuild
+"Vector.operator_less_size" start time: Dec 20 13:44 MSK
+Output:
+----------------------------------------------------------
+Running main() from /Users/stanislav/Documents/Учеба/ершов/vektor/mybuild/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = Vector.operator_less_size
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Vector
+[ RUN      ] Vector.operator_less_size
+[       OK ] Vector.operator_less_size (0 ms)
+[----------] 1 test from Vector (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"Vector.operator_less_size" end time: Dec 20 13:44 MSK
+"Vector.operator_less_size" time elapsed: 00:00:00
+----------------------------------------------------------
+
+21/25 Testing: Vector.operator_much_less_size
+21/25 Test: Vector.operator_much_less_size
+Command: "/Users/stanislav/Documents/Учеба/ершов/vektor/mybuild/example_tests" "--gtest_filter=Vector.operator_much_less_size" "--gtest_also_run_disabled_tests"
+Directory: /Users/stanislav/Documents/Учеба/ершов/vektor/mybuild
+"Vector.operator_much_less_size" start time: Dec 20 13:44 MSK
+Output:
+----------------------------------------------------------
+Running main() from /Users/stanislav/Documents/Учеба/ершов/vektor/mybuild/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = Vector.operator_much_less_size
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Vector
+[ RUN      ] Vector.operator_much_less_size
+[       OK ] Vector.operator_much_less_size (0 ms)
+[----------] 1 test from Vector (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"Vector.operator_much_less_size" end time: Dec 20 13:44 MSK
+"Vector.operator_much_less_size" time elapsed: 00:00:00
+----------------------------------------------------------
+
+22/25 Testing: Vector.operator_not_more
+22/25 Test: Vector.operator_not_more
+Command: "/Users/stanislav/Documents/Учеба/ершов/vektor/mybuild/example_tests" "--gtest_filter=Vector.operator_not_more" "--gtest_also_run_disabled_tests"
+Directory: /Users/stanislav/Documents/Учеба/ершов/vektor/mybuild
+"Vector.operator_not_more" start time: Dec 20 13:44 MSK
+Output:
+----------------------------------------------------------
+Running main() from /Users/stanislav/Documents/Учеба/ершов/vektor/mybuild/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = Vector.operator_not_more
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Vector
+[ RUN      ] Vector.operator_not_more
+[       OK ] Vector.operator_not_more (0 ms)
+[----------] 1 test from Vector (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"Vector.operator_not_more" end time: Dec 20 13:44 MSK
+"Vector.operator_not_more" time elapsed: 00:00:00
+----------------------------------------------------------
+
+23/25 Testing: Vector.operator_not_less
+23/25 Test: Vector.operator_not_less
+Command: "/Users/stanislav/Documents/Учеба/ершов/vektor/mybuild/example_tests" "--gtest_filter=Vector.operator_not_less" "--gtest_also_run_disabled_tests"
+Directory: /Users/stanislav/Documents/Учеба/ершов/vektor/mybuild
+"Vector.operator_not_less" start time: Dec 20 13:44 MSK
+Output:
+----------------------------------------------------------
+Running main() from /Users/stanislav/Documents/Учеба/ершов/vektor/mybuild/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = Vector.operator_not_less
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Vector
+[ RUN      ] Vector.operator_not_less
+[       OK ] Vector.operator_not_less (0 ms)
+[----------] 1 test from Vector (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"Vector.operator_not_less" end time: Dec 20 13:44 MSK
+"Vector.operator_not_less" time elapsed: 00:00:00
+----------------------------------------------------------
+
+24/25 Testing: Vector.operator_much_bigger
+24/25 Test: Vector.operator_much_bigger
+Command: "/Users/stanislav/Documents/Учеба/ершов/vektor/mybuild/example_tests" "--gtest_filter=Vector.operator_much_bigger" "--gtest_also_run_disabled_tests"
+Directory: /Users/stanislav/Documents/Учеба/ершов/vektor/mybuild
+"Vector.operator_much_bigger" start time: Dec 20 13:44 MSK
+Output:
+----------------------------------------------------------
+Running main() from /Users/stanislav/Documents/Учеба/ершов/vektor/mybuild/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = Vector.operator_much_bigger
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Vector
+[ RUN      ] Vector.operator_much_bigger
+[       OK ] Vector.operator_much_bigger (0 ms)
+[----------] 1 test from Vector (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"Vector.operator_much_bigger" end time: Dec 20 13:44 MSK
+"Vector.operator_much_bigger" time elapsed: 00:00:00
+----------------------------------------------------------
+
+25/25 Testing: Vector.empty
+25/25 Test: Vector.empty
+Command: "/Users/stanislav/Documents/Учеба/ершов/vektor/mybuild/example_tests" "--gtest_filter=Vector.empty" "--gtest_also_run_disabled_tests"
+Directory: /Users/stanislav/Documents/Учеба/ершов/vektor/mybuild
+"Vector.empty" start time: Dec 20 13:44 MSK
+Output:
+----------------------------------------------------------
+Running main() from /Users/stanislav/Documents/Учеба/ершов/vektor/mybuild/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = Vector.empty
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Vector
+[ RUN      ] Vector.empty
+[       OK ] Vector.empty (0 ms)
+[----------] 1 test from Vector (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"Vector.empty" end time: Dec 20 13:44 MSK
+"Vector.empty" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Dec 20 13:44 MSK
