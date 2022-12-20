@@ -230,7 +230,7 @@ namespace bmstu {
             }
             data_.swap(tmp);
             capacity_ = new_capacity;
-            size_ = new_capacity;
+            if (capacity_ < size_) size_ = capacity_;
         }
 
         iterator insert(const_iterator pos, Type &&value) {

@@ -51,7 +51,7 @@ TEST(Vector, reserve) {
 TEST(Vector, reserve_more) {
     bmstu::vector<char> vektor{'B', 'A', 'N', 'A', 'N'};
     vektor.Reserve(6);
-    ASSERT_EQ(vektor.size(), 6);
+    ASSERT_EQ(vektor.size(), 5);
     ASSERT_EQ(vektor.capacity(), 6);
 }
 
