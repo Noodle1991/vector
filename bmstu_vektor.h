@@ -106,14 +106,14 @@ namespace bmstu {
             std::copy(ilist.begin(), ilist.end(), begin());
         }
 
-        void Clear() noexcept {
+        void clear() noexcept {
             size_ = 0;
         }
 
         vector &operator=(const vector<Type> &other) {
             if (this != &other) {
                 if (other.empty()) {
-                    Clear();
+                    clear();
                 } else {
                     auto copy(other);
                     this->swap(copy);
@@ -125,7 +125,7 @@ namespace bmstu {
         vector &operator=(const vector<Type> &&other) {
             if (this != &other) {
                 if (other.empty()) {
-                    Clear();
+                    clear();
                 } else {
                     auto copy(std::move(other));
                     this->swap(copy);
@@ -257,7 +257,7 @@ namespace bmstu {
             return begin() + n;
         }
 
-        iterator Insert(const_iterator pos, const Type &value) {
+        iterator insert(const_iterator pos, const Type &value) {
             Type copy = value;
             return insert(pos, std::move(copy));
         }
