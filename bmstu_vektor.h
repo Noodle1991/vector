@@ -205,14 +205,14 @@ namespace bmstu {
             lhs.swap(rhs);
         }
 
-        void Resize(size_t new_size) {
+        void resize(size_t new_size) {
             if (new_size > capacity_) {
                 size_t new_capacity = std::max(new_size, capacity_ * 2);
-                Reserve(new_capacity);
+                reserve(new_capacity);
                 size_ = new_size;
             } else if (new_size < capacity_) {
                 size_t new_capacity = std::min(new_size, capacity_ * 2);
-                Reserve(new_capacity);
+                reserve(new_capacity);
                 size_ = new_size;
             } else {
                 std::fill(end(), begin() + new_size, Type{});
@@ -220,7 +220,7 @@ namespace bmstu {
             }
         }
 
-        void Reserve(size_t new_capacity) {
+        void reserve(size_t new_capacity) {
             array_bundle<Type> tmp(new_capacity);
             auto first = begin();
             auto last = end();
@@ -236,7 +236,7 @@ namespace bmstu {
         iterator insert(const_iterator pos, Type &&value) {
             size_t n = pos - begin();
             if (capacity_ == 0) {
-                Reserve(1);
+                reserve(1);
             }
             if (size_ == capacity_) {
                 capacity_ *= 2;

@@ -20,14 +20,14 @@ TEST(Vector, exact_symbol) {
 
 TEST(Vector, resize_char) {
     bmstu::vector<char> vektor{'B', 'A', 'N', 'A', 'N'};
-    vektor.Resize(3);
+    vektor.resize(3);
     ASSERT_EQ(vektor.size(), 3);
     ASSERT_EQ(vektor.capacity(), 3);
 }
 
 TEST(Vector, resize_int) {
     bmstu::vector<int> vektor{1, 2, 3};
-    vektor.Resize(8);
+    vektor.resize(8);
     ASSERT_EQ(vektor.size(), 8);
     ASSERT_EQ(vektor.capacity(), 8);
 }
@@ -41,7 +41,7 @@ TEST(Vector, swap) {
 
 TEST(Vector, reserve) {
     bmstu::vector<char> vektor{'B', 'A', 'N', 'A', 'N'};
-    vektor.Reserve(2);
+    vektor.reserve(2);
     bmstu::vector<char> vektor2{'B', 'A'};
     ASSERT_EQ(vektor.size(), 2);
     ASSERT_EQ(vektor.capacity(), 2);
@@ -50,7 +50,7 @@ TEST(Vector, reserve) {
 
 TEST(Vector, reserve_more) {
     bmstu::vector<char> vektor{'B', 'A', 'N', 'A', 'N'};
-    vektor.Reserve(6);
+    vektor.reserve(6);
     ASSERT_EQ(vektor.size(), 5);
     ASSERT_EQ(vektor.capacity(), 6);
 }
