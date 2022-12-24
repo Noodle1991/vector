@@ -6,6 +6,8 @@
 namespace bmstu {
 
     template<typename Type>
+    /* bmstu_vektor vs vector */
+    /* лечим расстройство личности плиз */
     class vector {
     public:
         struct iterator {
