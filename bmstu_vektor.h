@@ -8,7 +8,7 @@ namespace bmstu {
     template<typename Type>
     /* bmstu_vektor vs vector */
     /* лечим расстройство личности плиз */
-    class vector {
+    class dummy_vector {
     public:
         struct iterator {
             using value_type = Type;
@@ -84,9 +84,9 @@ namespace bmstu {
 
         using const_iterator = const iterator;
 
-        vector() noexcept = default;
+        dummy_vector() noexcept = default;
 
-        vector(size_t size, const Type &value = Type{}) :
+        dummy_vector(size_t size, const Type &value = Type{}) :
                 size_(size), capacity_(size), data_(size) {
             auto first = begin();
             auto last = end();
@@ -95,16 +95,16 @@ namespace bmstu {
             }
         }
 
-        vector(const vector<Type> &other) : size_(other.size()), capacity_(other.capacity()), data_(size_) {
+        dummy_vector(const dummy_vector<Type> &other) : size_(other.size()), capacity_(other.capacity()), data_(size_) {
             std::copy(other.begin(), other.end(), begin());
         }
 
-        vector(vector<Type> &&other) noexcept {
+        dummy_vector(dummy_vector<Type> &&other) noexcept {
             this->swap(other);
 
         }
 
-        vector(std::initializer_list<Type> ilist) : size_(ilist.size()), capacity_(ilist.size()), data_(ilist.size()) {
+        dummy_vector(std::initializer_list<Type> ilist) : size_(ilist.size()), capacity_(ilist.size()), data_(ilist.size()) {
             std::copy(ilist.begin(), ilist.end(), begin());
         }
 
@@ -112,7 +112,7 @@ namespace bmstu {
             size_ = 0;
         }
 
-        vector &operator=(const vector<Type> &other) {
+        dummy_vector &operator=(const dummy_vector<Type> &other) {
             if (this != &other) {
                 if (other.empty()) {
                     clear();
@@ -124,7 +124,7 @@ namespace bmstu {
             return *this;
         }
 
-        vector &operator=(const vector<Type> &&other) {
+        dummy_vector &operator=(const dummy_vector<Type> &&other) {
             if (this != &other) {
                 if (other.empty()) {
                     clear();
@@ -197,13 +197,13 @@ namespace bmstu {
             return (size_ == 0);
         }
 
-        void swap(vector &other) noexcept {
+        void swap(dummy_vector &other) noexcept {
             std::swap(size_, other.size_);
             std::swap(capacity_, other.capacity_);
             data_.swap(other.data_);
         }
 
-        friend void swap(vector<Type> &lhs, vector<Type> &rhs) {
+        friend void swap(dummy_vector<Type> &lhs, dummy_vector<Type> &rhs) {
             lhs.swap(rhs);
         }
 
@@ -279,7 +279,7 @@ namespace bmstu {
             }
         }
 
-        friend bool operator==(const vector<Type> &l, const vector<Type> &r) {
+        friend bool operator==(const dummy_vector<Type> &l, const dummy_vector<Type> &r) {
             if (l.size_ == r.size_) {
                 for (auto fl = l.begin(), fr = r.begin(); fl != l.end(); ++fl, ++fr) {
                     if (*fl != *fr) {
@@ -291,27 +291,27 @@ namespace bmstu {
             return false;
         }
 
-        friend bool operator!=(const vector<Type> &l, const vector<Type> &r) {
+        friend bool operator!=(const dummy_vector<Type> &l, const dummy_vector<Type> &r) {
             return not (l == r);
         }
 
-        friend bool operator<(const vector<Type> &l, const vector<Type> &r) {
+        friend bool operator<(const dummy_vector<Type> &l, const dummy_vector<Type> &r) {
             return lexicographical_compare_(l, r);
         }
 
-        friend bool operator>(const vector<Type> &l, const vector<Type> &r) {
+        friend bool operator>(const dummy_vector<Type> &l, const dummy_vector<Type> &r) {
             return (r < l);
         }
 
-        friend bool operator<=(const vector<Type> &l, const vector<Type> &r) {
+        friend bool operator<=(const dummy_vector<Type> &l, const dummy_vector<Type> &r) {
             return not (r < l);
         }
 
-        friend bool operator>=(const vector<Type> &l, const vector<Type> &r) {
+        friend bool operator>=(const dummy_vector<Type> &l, const dummy_vector<Type> &r) {
             return not (l < r);
         }
 
-        friend std::ostream &operator<<(std::ostream &os, const vector<Type> &other) {
+        friend std::ostream &operator<<(std::ostream &os, const dummy_vector<Type> &other) {
             os << "[";
             for (int i = 0; i < other.size_ - 1; ++i) {
                 os << other[i] << ", ";
@@ -323,7 +323,7 @@ namespace bmstu {
 
 
     private:
-        static bool lexicographical_compare_(const vector<Type> &l, const vector<Type> &r) {
+        static bool lexicographical_compare_(const dummy_vector<Type> &l, const dummy_vector<Type> &r) {
             auto lf = l.begin(), rf = r.begin();
             for (size_t i = 0; (lf != l.end()) && (rf != r.end()); ++lf, ++rf, ++i) {
                 if (*lf < *rf) {
